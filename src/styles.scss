@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow-x:hidden;
+
+}
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7f7;
+  user-select: none;
+  position: relative;
+  overflow-x:hidden;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+html {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
